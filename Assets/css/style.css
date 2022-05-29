@@ -1,0 +1,61 @@
+.editBody{
+    background-color: black;
+    color: white;
+}
+
+.divMainSection{
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;  
+    min-height: 700px;
+
+    color: white;
+}
+
+@media (max-width: 500px){
+    .divMainSection{
+        min-height: 450px;
+    }
+}
+
+.imgItadori{
+    width: 100%;
+    height: 700px;
+    max-width: 900px;
+    min-width: 540px;
+}
+.imgToudou{
+    width: 100%;
+    height: 700px;
+    max-width: 900px;
+    min-width: 400px;
+}
+.divMid{
+    height: 600px;
+    width: 100%;
+}
+.imgEffect2{
+    width: 100%;
+    max-width: 700px;
+    max-height: 600px;
+    mix-blend-mode: screen;
+}
+.imgEffect{
+    width: 100%;
+    max-width: 700px;
+    max-height: 600px;
+    mix-blend-mode: screen;
+}
+.imgTitulo{
+    width: 100%;
+    max-width: 1000px;
+    mix-blend-mode: screen;
+    padding: 20px;
+}
+.imgSatoru{
+    width: 100%;
+    max-width: 700px;
+}
+.divImgEffect, .divImgSatoru, .divImgTitulo{
+    bottom: 0px;
+}

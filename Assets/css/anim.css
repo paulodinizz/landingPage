@@ -1,0 +1,80 @@
+.animChar2{
+    animation: animChar2 4s ease infinite alternate;
+}
+@keyframes animChar2{
+    0%{
+        transform: scale(1) translate(0px, 0px);
+    }
+    90%{
+        filter: brightness(1);
+    }
+    100%{
+        filter: brightness(1.2);
+        transform: scale(1.2) translate(0px, -43px);
+    }
+}
+.animChar1{
+    animation: animChar1 4s ease infinite alternate;
+}
+@keyframes animChar1{
+    0%{
+        transform: scale(1) translate(0px, 0px);
+        opacity: 0;
+        filter: blur(10px);
+    }
+    90%{
+        filter: brightness(1);
+        filter: blur(0px);
+    }
+    100%{
+        filter: brightness(1.2);
+        transform: scale(1.1) translate(0px, -38px);
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+
+.animChar3{
+    animation: animChar3 4s ease infinite alternate;
+}
+@keyframes animChar3{
+    0%{
+        transform: scale(1) translate(0.4px, 0px);
+        opacity: 0;
+        filter: blur(10px);
+    }
+    90%{
+        filter: brightness(1);
+        filter: blur(0px);
+    }
+    100%{
+        filter: brightness(1.2);
+        transform: scale(1.02) translate(-10px, -10px);
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+@media (max-width: 500px){
+    .animChar2{
+        animation: animChar2 4s ease infinite alternate;
+    }
+    @keyframes animChar2{
+        0%{
+            transform: scale(1);
+            opacity: 0;
+            filter: blur(10px);
+        }
+        90%{
+            filter: brightness(1);
+            filter: blur(0px);
+        }
+        100%{
+            filter: brightness(1.2);
+            transform: scale(1);
+            opacity: 1;
+            filter: blur(0px);
+        }
+    }
+}
